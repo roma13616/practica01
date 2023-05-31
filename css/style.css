@@ -1,0 +1,27 @@
+/*фон страницы*/
+.main-page{
+ background-image:url(../img/fon.png);
+ 
+}
+.center{
+  background-image: url(../img/Background123.svg);
+}
+.profil{
+  background-image: url(../img/Background12111.png);
+}
+/* фон первой навигации*/
+.nav-1{
+  background-image: url(../img/Background.png);
+  width: 71.5px;
+  height: 801px;
+  
+}
+/*объекты первой навигации*/
+.object{
+  height: 25px;
+}
+/* grid*/
+.main-page{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
